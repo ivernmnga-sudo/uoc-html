@@ -6,6 +6,7 @@
   "dev": "parcel 'src/**/*.html'",
 "build": "parcel build 'src/**/*.html' --public-url /"
 },
+"browserslist": "ie >= 11, edge >= 12, chrome >= 50, firefox >= 45, safari >= 9",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivernmnga-sudo/uoc-html.git"
