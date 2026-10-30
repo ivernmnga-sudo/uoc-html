@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-  "dev": "parcel 'src/**/*.html'",
-"build": "parcel build 'src/**/*.html' --public-url /"
-},
-"browserslist": "ie >= 11, edge >= 12, chrome >= 50, firefox >= 45, safari >= 9",
+    "dev": "parcel 'src/**/*.html'",
+    "build": "parcel build 'src/**/*.html' --public-url /"
+  },
+  "browserslist": "ie >= 11, edge >= 12, chrome >= 50, firefox >= 45, safari >= 9",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivernmnga-sudo/uoc-html.git"
@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/ivernmnga-sudo/uoc-html#readme",
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "sass": "^1.107.0"
+  },
+  "dependencies": {
+    "glightbox": "^3.3.1"
   }
 }
